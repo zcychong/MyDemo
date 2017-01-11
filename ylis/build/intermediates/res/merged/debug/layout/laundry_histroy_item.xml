@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="送洗时间:" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/ThreeTextStyle"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="衣物所属:" />
+
+        <TextView
+            android:id="@+id/tv_elderly_name"
+            style="@style/ThreeTextStyle"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="衣物类型:" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/ThreeTextStyle"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,324 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_2"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/tv_room_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/border_yellow"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:text="1001"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tv_room_id"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/CommonViewStyle"
+                android:text="2016-10-10" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_bed_id"
+                    style="@style/CommonViewStyle"
+                    android:text="开口道" />
+
+                <TextView
+                    android:id="@+id/tv_people_name"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="10dp"
+                    android:text="方法" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_edit_48hours_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/pressed_border_yellow_btn"
+            android:drawableLeft="@drawable/icon_48hours_hint"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="填写48小时观察记录"
+            android:textColor="@color/main_black"
+            android:textSize="22sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_frequency_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_frequency_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_frequency" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_name_a"
+                    style="@style/CommonViewStyle"
+                    android:layout_toRightOf="@id/iv_frequency_a"
+                    android:padding="10dp"
+                    android:text="护理班次:" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_a"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_frequency_name_a"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_leave_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/pressed_border_yellow_btn"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="请假"
+                    android:textColor="@color/border_yellow"
+                    android:textSize="22sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_task_item_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3" >
+            </com.healthmanage.ylis.view.GridViewForScrollView>
+
+            <RelativeLayout
+                android:id="@+id/rl_frequency_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_frequency_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_frequency" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_name_b"
+                    style="@style/CommonViewStyle"
+                    android:layout_toRightOf="@id/iv_frequency_b"
+                    android:padding="10dp"
+                    android:text="护理班次:" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_b"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_frequency_name_b"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_leave_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/pressed_border_yellow_btn"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="请假"
+                    android:textColor="@color/border_yellow"
+                    android:textSize="22sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_task_item_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:visibility="gone" >
+            </com.healthmanage.ylis.view.GridViewForScrollView>
+
+            <RelativeLayout
+                android:id="@+id/rl_frequency_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_frequency_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_frequency" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_name_c"
+                    style="@style/CommonViewStyle"
+                    android:layout_toRightOf="@id/iv_frequency_c"
+                    android:padding="10dp"
+                    android:text="护理班次:" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_c"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_frequency_name_c"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_leave_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/pressed_border_yellow_btn"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="请假"
+                    android:textColor="@color/border_yellow"
+                    android:textSize="22sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_task_item_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:visibility="gone" >
+            </com.healthmanage.ylis.view.GridViewForScrollView>
+            <RelativeLayout
+                android:id="@+id/rl_frequency_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/iv_frequency_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_frequency" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_name_d"
+                    style="@style/CommonViewStyle"
+                    android:layout_toRightOf="@id/iv_frequency_d"
+                    android:padding="10dp"
+                    android:text="护理班次:" />
+
+                <TextView
+                    android:id="@+id/tv_frequency_d"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_frequency_name_d"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_leave_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/pressed_border_yellow_btn"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="请假"
+                    android:textColor="@color/border_yellow"
+                    android:textSize="22sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_task_item_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3" >
+            </com.healthmanage.ylis.view.GridViewForScrollView>
+
+            <TextView
+                android:id="@+id/tv_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:background="@drawable/pressed_all_main_color_btn"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

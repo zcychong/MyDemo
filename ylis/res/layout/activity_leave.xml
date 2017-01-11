@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="老人姓名:" />
+        
+        <ImageView
+            android:id="@+id/iv_choose_people" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_right_arrow"/>
+        
+        <TextView
+            android:id="@+id/tv_people_name" 
+            style="@style/CommonViewStyle"
+            android:layout_toLeftOf="@id/iv_choose_people"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_leave_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="离开时间:" />
+
+        <TextView
+            android:id="@+id/tv_leave_time"
+            style="@style/ThreeTextStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:hint="请选择" 
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_back_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_back"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="返回时间:" />
+
+        <TextView
+            android:id="@+id/tv_back_time"
+            style="@style/ThreeTextStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:hint="请选择"  />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_room"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="房间信息:" />
+
+        <TextView
+            android:id="@+id/tv_room_info"
+            style="@style/ThreeTextStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_room_info"
+            android:gravity="right"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_shuttle"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="接送人:" />
+
+        <EditText
+            android:id="@+id/et_shuttle_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_shuttle"
+            android:background="@null"
+            android:hint="接送人姓名"
+            android:gravity="right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_shuttle_phone"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="接送人电话:" />
+
+         <EditText
+            android:id="@+id/et_shuttle_name_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/tv_shuttle_phone"
+            android:background="@null"
+            android:phoneNumber="true"
+            android:hint="接送人电话"
+            android:gravity="right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_because"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="请假原因:" />
+
+         <EditText
+            android:id="@+id/et_leave_because"
+            style="@style/EditTaskStyle"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/tv_because"
+            android:gravity="top" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:background="@drawable/button_bg"
+        />
+
+</LinearLayout>

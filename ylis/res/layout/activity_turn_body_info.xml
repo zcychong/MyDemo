@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <TextView
+        android:id="@+id/tv_commit" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@drawable/pressed_all_main_color_btn"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+    
+    <include layout="@layout/title" />
+    
+     <RelativeLayout
+            android:id="@+id/rl_rlderly_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp" >
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:layout_centerVertical="true"
+                android:text="老人" />
+
+            <ImageView
+                android:id="@+id/iv_rlderly_name_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_rlderly_name"
+                style="@style/ThreeTextStyle"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_rlderly_name_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="皮肤情况" />
+
+        <EditText
+            android:id="@+id/et_skin_info"
+            style="@style/EditTaskStyle"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="处理方式" />
+
+        <EditText
+            android:id="@+id/et_deal_info"
+            style="@style/EditTaskStyle"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="处理结果" />
+
+        <EditText
+            android:id="@+id/et_deal_result"
+            style="@style/EditTaskStyle"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line" />
+    </LinearLayout>
+    
+
+</RelativeLayout>

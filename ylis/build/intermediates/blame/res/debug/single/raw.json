@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bgo_begin_measure.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bgo_begin_measure.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\input_phone_number.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\input_phone_number.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bc_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bc_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\begin_measure_blood.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\begin_measure_blood.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bg_update_success.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bg_update_success.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bp_finish_spo.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bp_finish_spo.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\spo_update_success.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\spo_update_success.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\choose_device.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\choose_device.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\pulm_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\pulm_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\phone_type_error.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\phone_type_error.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bg_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bg_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_bg.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_bg.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\device_error.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\device_error.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\begin_connect.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\begin_connect.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\updata_success.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\updata_success.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\device_no_data.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\device_no_data.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\connect_finish_begin.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\connect_finish_begin.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_pulm.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_pulm.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\nibp_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\nibp_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\begin_measure.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\begin_measure.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\eet_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\eet_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\connecting.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\connecting.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_spo.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_spo.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\connect_by_bluetooth.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\connect_by_bluetooth.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_eet.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_eet.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\nibp_update_successs.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\nibp_update_successs.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_nibp.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_nibp.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\bc_update_success.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\bc_update_success.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\find_bc.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\find_bc.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\spo_measure_finish.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\spo_measure_finish.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\pulm_update_success.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\pulm_update_success.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\connect_error.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\connect_error.wav"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\raw\\updata_error.wav",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\raw\\updata_error.wav"
+    }
+]

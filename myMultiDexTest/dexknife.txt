@@ -1,0 +1,5 @@
+# 如果你想要某个包路径在maindex中，则使用 -keep 选项，即使他已经在分包的路径中.
+#-keep com.demo.android.mymultidextest.Activity.**
+
+# 这条配置可以指定这个包下类在第二dex中.
+com.demo.android.mymultidextest.Utils.**

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/title" />
+
+    <TextView
+        style="@style/CommonViewStyle"
+        android:padding="20dp"
+        android:text="卫生区域" />
+
+	<com.healthmanage.ylis.view.GridViewForScrollView
+        android:id="@+id/gv_sannitation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:padding="10dp"
+        android:verticalSpacing="10dp" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/gray_line"/>
+
+	<TextView
+		style="@style/CommonViewStyle"
+		android:padding="20dp"
+		android:text="选择老人" />
+
+	<com.healthmanage.ylis.view.GridViewForScrollView
+		android:id="@+id/gv_elderly"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:horizontalSpacing="10dp"
+		android:numColumns="3"
+		android:padding="10dp"
+		android:verticalSpacing="10dp" />
+
+    
+	<TextView
+	    android:id="@+id/tv_commit" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:layout_marginLeft="60dp"
+	    android:layout_marginRight="60dp"
+	    android:layout_marginTop="50dp"
+	    android:layout_marginBottom="30dp"
+	    android:gravity="center"
+	    android:text="确定"
+	    android:textSize="22sp"
+	    android:textColor="@color/white"
+	    android:background="@drawable/pressed_yellow_bg"/>
+</LinearLayout>

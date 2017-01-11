@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/ll_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+        <TextView
+            android:id="@+id/tv_commit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/pressed_yellow_bg"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_commit"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title" />
+
+        <RelativeLayout
+            android:id="@+id/rl_chose_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp" >
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:layout_centerVertical="true"
+                android:text="时间" />
+
+            <ImageView
+                android:id="@+id/iv_time_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_right_arrow" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/ThreeTextStyle"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_time_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/CommonViewStyle"
+                android:layout_centerVertical="true"
+                android:text="巡查人" />
+
+            <AutoCompleteTextView
+                android:id="@+id/actv_patroa_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="right"
+                android:textColor="@color/three_black"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tv_name"
+                android:hint="请输入工号"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:layout_centerVertical="true"
+                android:padding="20dp"
+                android:text="巡查情况" />
+
+            <TextView
+                android:id="@+id/tv_patroal_exception"
+                style="@style/ThreeTextStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/login_btn_right"
+                android:padding="10dp"
+                android:text="异常" />
+
+            <TextView
+                android:id="@+id/tv_patroal_nromal"
+                style="@style/ThreeTextStyle"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_patroal_exception"
+                android:background="@drawable/login_btn_left_checked"
+                android:padding="10dp"
+                android:text="正常" 
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_exception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:layout_centerVertical="true"
+                android:padding="20dp"
+                android:text="异常情况" />
+
+            <TextView
+                android:id="@+id/tv_add_exception"
+                style="@style/CommonViewStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:text="添加"
+                android:textColor="@color/main_color" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/tv_add_exception"
+                android:src="@drawable/icon_add_exception" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" 
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/lv_patroal_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"  >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

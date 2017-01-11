@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品名称:"/>
+
+        <EditText
+            android:id="@+id/et_drug_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="请输入药品名称"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_sum_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品单位:"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tv_sum_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="请选择药品单位"
+            />
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gray_bg_2"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品总量:"/>
+
+        <EditText
+            android:id="@+id/et_sum_quantity"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:inputType="number"
+            android:hint="请输入药品总量"/>
+        <TextView
+            android:id="@+id/tv_drug_sum_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+    <LinearLayout
+        android:id="@+id/ll_drug_use_quantity_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="每次药品用量单位"
+            />
+
+        <TextView
+            android:id="@+id/tv_use_quantity_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:hint="请选择每次药品用量单位"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品规格:"/>
+
+        <EditText
+            android:id="@+id/et_drug_gg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:background="@null"
+            android:hint="请输入药品规格"/>
+        <TextView
+            android:id="@+id/tv_drug_gg_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="每次药品用量"
+            />
+
+        <EditText
+            android:id="@+id/et_use_quantity"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:background="@null"
+            android:hint="请输入每次药品用量"/>
+        <TextView
+            android:id="@+id/tv_ones_use_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+    />
+
+    <LinearLayout
+        android:id="@+id/ll_drug_use_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="用药频次"
+            />
+
+        <TextView
+            android:id="@+id/tv_drug_use_frequency"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="请选择用药频次"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_drug_usage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品用法"
+            />
+
+        <TextView
+            android:id="@+id/tv_drug_usage"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="请选择药品用法"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/commit"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@drawable/pressed_all_main_color_btn"/>
+</LinearLayout>

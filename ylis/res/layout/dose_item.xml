@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="服药时间:" />
+
+        <TextView
+            android:id="@+id/tv_dose_time"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="2010-10-10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="用药用量:" />
+
+        <TextView
+            android:id="@+id/tv_dose_name"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="板蓝根" />
+
+        <TextView
+            android:id="@+id/tv_dose_count"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tv_dose_unit"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="袋" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/CommonViewStyle"
+            android:text="老人情况:" />
+
+        <TextView
+            android:id="@+id/tv_dose_people"
+            style="@style/ThreeTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="有好转" />
+    </LinearLayout>
+
+</LinearLayout>

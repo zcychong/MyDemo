@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_fave">
+   
+    
+    <include layout="@layout/title"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        <LinearLayout
+		        android:id="@+id/ll_device_list" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical"
+		        android:background="@color/gray_fave">
+		        
+		    </LinearLayout>
+	        <Button 
+		        android:id="@+id/btn_begin"
+		        android:layout_width="match_parent"
+		        android:layout_height="64dp"
+		        android:background="@drawable/pressed_all_main_color_btn"
+		        android:layout_marginTop="40dp"
+		        android:text="添加设备"
+		        android:textColor="@color/white"
+		        android:textSize="22sp"/>
+	        <LinearLayout
+	            android:id="@+id/ll_search" 
+	            android:layout_width="match_parent"
+	            android:layout_height="56dp"
+	            android:orientation="horizontal"
+	            android:gravity="center"
+	            android:background="@color/gray_four"
+	            android:visibility="gone">
+	            <TextView
+	                android:id="@+id/tv_search_info" 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="正在搜索设备"
+	                android:textColor="@color/gray_three"
+	                android:textSize="18sp"
+	                />
+	            <ProgressBar
+	                android:id="@+id/pb_search" 
+	                android:layout_width="20dp"
+	                android:layout_height="20dp"
+	                android:layout_marginLeft="10dp"/>
+	        </LinearLayout>
+	        <LinearLayout
+	            android:id="@+id/ll_search_device"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical">
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

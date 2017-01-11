@@ -1,0 +1,1519 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="入院时间:" />
+
+                <TextView
+                    style="@style/ThreeTextStyle"
+                    android:layout_marginLeft="10dp"
+                    android:text="2016/-11-15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="观  察  人:" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    style="@style/ThreeTextStyle"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="观察时间:" />
+
+                <TextView
+                    style="@style/ThreeTextStyle"
+                    android:layout_marginLeft="10dp"
+                    android:text="2016/-11-16" />
+
+                <TextView
+                    style="@style/ThreeTextStyle"
+                    android:layout_marginLeft="10dp"
+                    android:text="下午" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:padding="10dp"
+                android:text="@string/record_ques_health" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_3" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_3"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_4_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_4_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/record_ques_health_4_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_4_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_5_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_5_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/record_ques_health_5_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_5_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_6_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_6_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/record_ques_health_6_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_6_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_7_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_7_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/record_ques_health_7_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_7_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_8_1" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_8_1"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/record_ques_health_8_2" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_health_8_2"
+                    style="@style/HoursRecordEditStyle"
+                    android:layout_marginTop="10dp"
+                    android:gravity="top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_9" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/tooth_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_10" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/vision_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_11" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/hearing_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_12" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/breathing_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_13" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/sleep_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_14" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/coordination_of_body_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_15" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/body_movement_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_health_16" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_health_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/unhealthy_behavior_info_list"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:padding="10dp"
+                android:text="@string/record_ques_mind" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_1" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_1"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_2" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_2"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_3" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_3"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_4" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_4"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="20dp" >
+
+                    <TextView
+                        style="@style/CommonViewStyle"
+                        android:text="@string/record_ques_mind_5" />
+
+                    <Spinner
+                        android:id="@+id/et_record_ques_mind_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/record_ques_mind_5"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_record_ques_mind_5_other"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/CommonViewStyle"
+                        android:layout_marginLeft="40dp"
+                        android:text="其他:" />
+
+                    <EditText
+                        android:id="@+id/et_record_ques_mind_5_other"
+                        style="@style/HoursRecordEditStyle"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_6" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_6"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_7" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_7"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_8" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_8"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_9" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_9"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_10" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_10"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_11" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_11"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_12" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_12"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_13" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_13"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_mind_14" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_mind_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_mind_14"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:padding="10dp"
+                android:text="@string/record_ques_life" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_1" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_1"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_2" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_2"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/CommonViewStyle"
+                        android:text="@string/record_ques_life_3_1" />
+
+                    <Spinner
+                        android:id="@+id/et_record_ques_life_3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/record_ques_life_3_1"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/CommonViewStyle"
+                        android:text="@string/record_ques_life_3_2" />
+
+                    <Spinner
+                        android:id="@+id/et_record_ques_life_3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/record_ques_life_3_2"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_4" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_4"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_5" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_5"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_6" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_6"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_7" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_7"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_8" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_8"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_9" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_9"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_10" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_10"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_11" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_11"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_12" />
+
+                <Spinner
+                    android:id="@+id/et_record_ques_life_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/record_ques_life_12"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_life_13" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_1"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_2"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_3"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_4"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_5"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_6"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_7"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_8"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_9"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_10"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_11"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:checked="false"
+                            android:text="@string/record_ques_life_13_12"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" >
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:text="@string/record_ques_life_13_13"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:text="@string/record_ques_life_13_14"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:text="@string/record_ques_life_13_15"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+
+                        <CheckBox
+                            android:id="@+id/cb_record_ques_life_13_16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:padding="5dp"
+                            android:text="@string/record_ques_life_13_16"
+                            android:textSize="22sp" 
+                            android:button="@drawable/border_checkbox_bg"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/record_ques_All" />
+
+                <EditText
+                    android:id="@+id/et_record_ques_All"
+                    android:gravity="top"
+                    style="@style/EditTaskStyle" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                android:id="@+id/tv_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:background="@drawable/pressed_all_main_color_btn"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

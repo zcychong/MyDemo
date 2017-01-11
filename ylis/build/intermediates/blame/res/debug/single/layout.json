@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_choose_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dose_detail_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dose_detail_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hours_record.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_hours_record.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\main_items_layout.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\main_items_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_elderly.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_choose_elderly.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_tv_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\autocomplete_tv_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dose_info_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dose_info_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nibp_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_nibp_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\turn_body_histroy_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\turn_body_histroy_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\device_manager_layout.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\device_manager_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_expand_dose.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_expand_dose.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_send_dose.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\fragment_send_dose.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_monitor.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_user_monitor.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\tips_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\tips_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_model_one_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\task_detail_model_one_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_report.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_use_drug.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\fragment_use_drug.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\title.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patroal_add_exception.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_patroal_add_exception.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_drug_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_add_drug_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fcilities_exception.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_fcilities_exception.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_loading_layout.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dialog_loading_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patroal_histroy.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_patroal_histroy.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fcilities_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_fcilities_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_laundry.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_laundry.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\patroal_exception_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\patroal_exception_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_drug.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_send_drug.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_input_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_histroy_task.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_histroy_task.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tast_connect_second.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_tast_connect_second.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_drug.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_add_drug.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\patroal_exception_histroy_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\patroal_exception_histroy_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\person_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\person_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\patroal_execption_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\patroal_execption_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_connext_task_exception.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_connext_task_exception.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_turn_body_histroy.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_turn_body_histroy.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\user_photo_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\user_photo_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sannitation.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_sannitation.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dose_elderly.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_dose_elderly.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_normal_has_title_layout.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dialog_normal_has_title_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_task_connect.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_edit_task_connect.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\soft_update_progress.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\soft_update_progress.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\room_people_item_model_two.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\room_people_item_model_two.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_leave_search.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_leave_search.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patroal_exception_list.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_patroal_exception_list.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dose_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dose_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail_model_two.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_task_detail_model_two.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\laundry_histroy_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\laundry_histroy_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_histroy_elderly_task.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_histroy_elderly_task.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\device_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\device_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_setting_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\group_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\send_drug_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\send_drug_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\time_picker.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_turn_body.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_turn_body.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\task_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\task_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_leave.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_leave.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_elderly_dose_detail.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_elderly_dose_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\people_item_model_two.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\people_item_model_two.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tast_connect.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_tast_connect.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\leave_elderly_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\leave_elderly_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\fragment_base.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\sannitation_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\sannitation_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\drug_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\drug_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\blood_pressure_history_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\blood_pressure_history_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\patroal_histroy_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\patroal_histroy_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_model_two.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\task_item_model_two.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\maybe_task_item.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\maybe_task_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_normal_monitor.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\fragment_normal_monitor.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dose_manager.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_dose_manager.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_drug_add_drug.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_send_drug_add_drug.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patroal.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_patroal.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\dialog_input.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_turn_body_info.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_turn_body_info.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\activity_laundry_histroy.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\activity_laundry_histroy.xml"
+    },
+    {
+        "merged": "D:\\demo\\MyDemo\\ylis\\build\\intermediates\\res\\merged\\debug\\layout\\cdisease_bc.xml",
+        "source": "D:\\demo\\MyDemo\\ylis\\res\\layout\\cdisease_bc.xml"
+    }
+]

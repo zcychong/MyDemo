@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthmanage.ylis"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许读取电话的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许应用找到关于当前或最近运行的任务和在哪些acitivities里运行 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 设置电源管理的权限,点亮屏幕权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 解锁权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 往sdcard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 在sdcard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 设置手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name=".application.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TastConnectFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TastConnectSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditTaskConnectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TaskDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HoursRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExpandDoseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExpandTurnBodyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LeaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TaskDetailModelTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HistroyElderlyListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LeaveSearchElderLyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_change_password" />
+        <activity
+            android:name=".activity.HistroyElderlyTaskActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_histroy_elderly_task" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_about_us" />
+        <activity
+            android:name=".activity.SannitationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_sannitation" />
+        <activity
+            android:name=".activity.PatroalActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.PatroalAddExceptionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".activity.InputInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.LaundryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.TurnBodyInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ChooseElderlyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PatroalHistroyActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_patroal_histroy" />
+        <activity
+            android:name=".activity.PatroalExceptionListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_patroal_exception_list" />
+        <activity
+            android:name=".activity.TurnBodyHistroyActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_turn_body_histroy" />
+        <activity
+            android:name=".activity.LaundryHistroyActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_laundry_histroy" />
+        <activity
+            android:name=".activity.ConnextTaskExceptionActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_connext_task_exception" />
+        <activity android:name=".activity.FcilitiesExceptionActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.DoseManagerActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity android:name=".activity.BaseFragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.SendDrugActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.SendDrugAddDrugActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.AddDrugActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity android:name=".activity.AddDrugInfoActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity android:name=".activity.ElderlyDoseDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ChooseItemActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name=".activity.UserMonitorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name=".activity.NibpInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name=".activity.DeviceManagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name=".activity.DoseElderlyListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name=".activity.DoseDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name=".service.FindDoseService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+    </application>
+
+</manifest>

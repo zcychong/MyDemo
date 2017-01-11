@@ -1,0 +1,329 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/title" />
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_color"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tv_commit"
+        android:layout_below="@id/lay_title" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_elderly_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_elderly_name" />
+
+                <ImageView
+                    android:id="@+id/iv_elderly_name_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_elderly_name"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toLeftOf="@id/iv_elderly_name_arrow" 
+                    android:hint="请选择"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_patroal_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_info_title"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_info" />
+
+                <ImageView
+                    android:id="@+id/iv_patroal_info_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_patroal_info"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_patroal_info_title" 
+                    android:layout_toLeftOf="@id/iv_patroal_info_arrow"
+                    android:gravity="right"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_patroal_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_time_title"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_time" />
+
+                <ImageView
+                    android:id="@+id/iv_patroal_time_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_patroal_time"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_patroal_time_title"
+                    android:layout_toLeftOf="@id/iv_patroal_time_arrow"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_deal_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_deal_title"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_deal_info" />
+
+                <ImageView
+                    android:id="@+id/iv_patroal_deal_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_patroal_deal"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_patroal_deal_title" 
+                    android:layout_toLeftOf="@id/iv_patroal_deal_arrow"
+                    android:gravity="right"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_elderly_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_elderly_title"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_elderly_info" />
+
+                <ImageView
+                    android:id="@+id/iv_patroal_elderly_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_patroal_elderly"
+                    style="@style/ThreeTextStyle"
+                    android:layout_toRightOf="@id/tv_patroal_elderly_title" 
+                    android:layout_toLeftOf="@id/iv_patroal_elderly_arrow"
+                    android:gravity="right"
+                    android:maxLines="2"
+                   	android:ellipsize="end"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_leader_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_leader_title"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_leader_name" />
+
+                <EditText
+                    android:id="@+id/et_leader_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/tv_patroal_leader_title"
+                    android:background="@null"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_home_name"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_home_name" />
+
+                <EditText
+                    android:id="@+id/et_home_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/tv_patroal_home_name"
+                    android:background="@null"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_home_phone"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_home_phone" />
+
+                <EditText
+                    android:id="@+id/et_home_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/tv_patroal_home_phone"
+                    android:phoneNumber="true"
+                    android:background="@null"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_home_back"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_home_back" />
+
+                <EditText
+                    android:id="@+id/et_home_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/tv_patroal_home_back"
+                    android:background="@null"
+                    android:gravity="right" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    android:id="@+id/tv_patroal_another"
+                    style="@style/CommonViewStyle"
+                    android:text="@string/patroal_another" />
+
+                <EditText
+                    android:id="@+id/et_home_another"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/tv_patroal_another"
+                    android:hint="若老人无异常,则只填此项即可"
+                    android:background="@null"
+                    android:gravity="right" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

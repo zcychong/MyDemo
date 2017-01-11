@@ -1,0 +1,71 @@
+package com.healthmanage.ylis.network.download;
+import java.io.IOException;
+
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.ResponseBody;
+
+
+//import okhttp3.MediaType;
+//import okhttp3.ResponseBody;
+import okio.Buffer;
+import okio.BufferedSource;
+import okio.ForwardingSource;
+import okio.Okio;
+import okio.Source;
+
+/**
+ * Created by ljd on 3/29/16.
+ */
+public class ProgressResponseBody extends ResponseBody {
+    private final ResponseBody responseBody;
+    private final ProgressListener progressListener;
+    private BufferedSource bufferedSource;
+
+    public ProgressResponseBody(ResponseBody responseBody, ProgressListener progressListener) {
+        this.responseBody = responseBody;
+        this.progressListener = progressListener;
+    }
+
+    @Override
+    public MediaType contentType() {
+        return responseBody.contentType();
+    }
+
+    @Override
+    public long contentLength() {
+        try {
+			return responseBody.contentLength();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        return 0;
+    }
+
+    @Override
+    public BufferedSource source() {
+        if (bufferedSource == null) {
+            try {
+				bufferedSource = Okio.buffer(source(responseBody.source()));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
+        return bufferedSource;
+    }
+
+    private Source source(Source source) {
+        return new ForwardingSource(source) {
+            long totalBytesRead = 0L;
+
+            @Override
+            public long read(Buffer sink, long byteCount) throws IOException {
+                long bytesRead = super.read(sink, byteCount);
+                totalBytesRead += bytesRead != -1 ? bytesRead : 0;
+                progressListener.onProgress(totalBytesRead, responseBody.contentLength(), bytesRead == -1);
+                return bytesRead;
+            }
+        };
+    }
+}

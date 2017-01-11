@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:orientation="vertical">
+
+    <include layout="@layout/title"/>
+    
+    <EditText
+        android:id="@+id/et_info" 
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:gravity="top|left"
+        android:background="@drawable/edittext_border_shape"/>
+    
+    <TextView
+        android:id="@+id/tv_commit" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@drawable/pressed_yellow_bg"/>
+
+</LinearLayout>

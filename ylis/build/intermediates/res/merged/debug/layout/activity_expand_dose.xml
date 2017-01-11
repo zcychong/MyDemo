@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="添加服药记录" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/gray_line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:padding="10dp"
+                    android:text="服药时间:" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/ThreeTextStyle"
+                    android:text="2016-11-11 12:02:66" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:padding="10dp"
+                    android:text="药品名称:" />
+
+                <EditText
+                    android:id="@+id/et_medicine_name"
+                    style="@style/HoursRecordEditStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:padding="10dp"
+                    android:text="用法用量:" />
+
+                <EditText
+                    android:id="@+id/et_medicine_unit"
+                    style="@style/HoursRecordEditStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:padding="10dp"
+                    android:text="老人情况:" />
+
+                <EditText
+                    android:id="@+id/et_people_info"
+                    style="@style/HoursRecordEditStyle" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_commmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pressed_all_main_color_btn"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="确认"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="老人服药记录" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/gray_line" />
+            </LinearLayout>
+
+            <com.healthmanage.ylis.view.ListViewForScrollView
+                android:id="@+id/lv_dose_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.healthmanage.ylis.view.ListViewForScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/tv_commit"
+            style="@style/CommonViewStyle"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/disagree_green_button_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="查找"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/tv_commit"
+            android:background="@drawable/border_black"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/iv_clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_clean" 
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/et_people_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@id/iv_clean" 
+                android:background="@null"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="@color/gray_line"
+        android:orientation="horizontal">
+        <TextView 
+            style="@style/ThreeTextStyle"
+            android:text="共"/>
+        <TextView
+            android:id="@+id/tv_elderly_count" 
+            style="@style/ThreeTextStyle"
+            android:text="0"
+            android:textColor="@color/problem_green"/>
+         <TextView 
+            style="@style/ThreeTextStyle"
+            android:text="位老人"/>
+        </LinearLayout>
+        
+    <ListView
+        android:id="@+id/lv_people_list" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        
+    </ListView>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+    
+    <LinearLayout
+        android:id="@+id/ll_no_value" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         
+        <TextView 
+            style="@style/ThreeTextStyle"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="没有找到!"
+            android:visibility="gone"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

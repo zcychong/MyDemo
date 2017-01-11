@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="选择药品:"/>
+
+        <Spinner
+            android:id="@+id/sp_drug_list"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+    <RelativeLayout
+        android:id="@+id/rl_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/tv_time_title"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="服药时间:"/>
+        <ImageView
+            android:id="@+id/iv_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_right_arrow"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/tv_dose_time"
+            android:layout_toRightOf="@+id/tv_time_title"
+            android:layout_toLeftOf="@+id/iv_right_arrow"
+            android:layout_centerVertical="true"
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="用药频次:"/>
+
+        <TextView
+            android:id="@+id/tv_drug_gg"
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品剩余量:"/>
+
+        <TextView
+            android:id="@+id/tv_sum_quantity"
+            style="@style/CommonViewStyle"
+            android:layout_width="100dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tv_sum_quantity_unit"
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="本次用量:"/>
+
+        <EditText
+            android:id="@+id/et_use_quantity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"/>
+        <TextView
+            android:id="@+id/tv_use_unit"
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/CommonViewStyle"
+            android:padding="10dp"
+            android:text="药品用法:"/>
+
+        <TextView
+            android:id="@+id/tv_drug_usage"
+            style="@style/CommonViewStyle"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/commit"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@drawable/pressed_all_main_color_btn"/>
+</LinearLayout>

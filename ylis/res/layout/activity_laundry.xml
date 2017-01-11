@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_chose_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_centerVertical="true"
+                    android:text="送洗时间" />
+
+                <ImageView
+                    android:id="@+id/iv_time_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/icon_right_arrow" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/ThreeTextStyle"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/iv_time_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:padding="20dp"
+                android:text="衣物类型" />
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_laundry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:padding="10dp"
+                android:verticalSpacing="10dp" />
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                style="@style/CommonViewStyle"
+                android:padding="20dp"
+                android:text="选择老人" />
+
+            <com.healthmanage.ylis.view.GridViewForScrollView
+                android:id="@+id/gv_elderly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:padding="10dp"
+                android:verticalSpacing="10dp" />
+
+            <TextView
+                android:id="@+id/tv_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/pressed_yellow_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

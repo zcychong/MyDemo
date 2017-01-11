@@ -1,0 +1,378 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_2"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="    交班人:" />
+
+                <TextView
+                    android:id="@+id/tv_old_user"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/icon_staff_number" />
+
+                <TextView
+                    android:id="@+id/tv_old_staff_number"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="    接班人:" />
+
+                <TextView
+                    android:id="@+id/tv_new_user"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/icon_staff_number" />
+
+                <TextView
+                    android:id="@+id/tv_new_staff_number"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="护理老人:" />
+
+                <TextView
+                    android:id="@+id/tv_people_list"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_mind" />
+
+                <TextView
+                    android:id="@+id/tv_people_mind"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_mood" />
+
+                <TextView
+                    android:id="@+id/tv_people_mood"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_food" />
+
+                <TextView
+                    android:id="@+id/tv_people_food"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_dose" />
+
+                <TextView
+                    android:id="@+id/tv_people_dose"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_injection" />
+
+                <TextView
+                    android:id="@+id/tv_people_injection"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_skin" />
+
+                <TextView
+                    android:id="@+id/tv_people_skin"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_body_clean" />
+
+                <TextView
+                    android:id="@+id/tv_people_body_clean"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/people_clothes_clean" />
+
+                <TextView
+                    android:id="@+id/tv_people_clothes_clean"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:text="@string/people_room_health" />
+
+                <TextView
+                    android:id="@+id/tv_people_room_health"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp"
+                    android:text="        其他:" />
+
+                <TextView
+                    android:id="@+id/tv_people_another"
+                    style="@style/CommonViewStyle"
+                    android:layout_marginLeft="20dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_task_list"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/pressed_border_white_btn"
+                android:text="交班人未完成任务"
+                android:textColor="@color/main_black"
+                android:textSize="24sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_connect_accept"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/pressed_white_btn"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/icon_connect_receipt"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:text="接受"
+                            android:textColor="@color/second_black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_connect_disagree"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/pressed_white_btn"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/icon_connect_disagree"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="拒绝"
+                            android:textColor="@color/second_black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/gray_line" 
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_connect_problem"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/pressed_white_btn"
+                        android:gravity="center" 
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@drawable/icon_connect_problem"
+                            android:drawablePadding="5dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="举报"
+                            android:textColor="@color/second_black"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

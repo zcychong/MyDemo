@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time_list">
+        <item>白班</item>
+        <item>夜班</item>
+    </string-array>
+    <string-array name="time_value_list">
+        <item>A,B,C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="ques_heal_number_et_nor">
+        <item>q188</item>
+        <item>q189</item>
+        <item>q190</item>
+    </string-array>
+    <string-array name="ques_heal_number_et">
+        <item>q191</item>
+        <item>q192</item>
+        <item>q193</item>
+        <item>q194</item>
+        <item>q195</item>
+    </string-array>
+    <string-array name="ques_heal_number_sp">
+        <item>q196</item>
+        <item>q197</item>
+        <item>q198</item>
+        <item>q199</item>
+        <item>q200</item>
+        <item>q201</item>
+        <item>q202</item>
+        <item>q203</item>
+    </string-array>
+    <string-array name="ques_mind_number">
+        <item>q204</item>
+        <item>q205</item>
+        <item>q206</item>
+        <item>q207</item>
+        <item>q208</item>
+        <item>q209</item>
+        <item>q210</item>
+        <item>q211</item>
+        <item>q212</item>
+        <item>q213</item>
+        <item>q214</item>
+        <item>q215</item>
+        <item>q216</item>
+        <item>q217</item>
+    </string-array>
+    <string-array name="ques_life_number">
+        <item>q218</item>
+        <item>q219</item>
+        <item>q220</item>
+        <item>q221</item>
+        <item>q222</item>
+        <item>q223</item>
+        <item>q224</item>
+        <item>q225</item>
+        <item>q226</item>
+        <item>q227</item>
+        <item>q228</item>
+        <item>q229</item>
+        <item>q230</item>
+    </string-array>
+    <string-array name="dose_unit_list">
+        <item>请选择:</item>
+        <item>粒</item>
+        <item>片</item>
+        <item>支</item>
+        <item>贴</item>
+        <item>克</item>
+        <item>剂</item>
+        <item>盒</item>
+        <item>瓶</item>
+        <item>袋</item>
+        <item>丸</item>
+        <item>毫升</item>
+        <item>喷</item>
+        <item>揿</item>
+    </string-array>
+    <string-array name="tooth_info_list">
+        <item>请选择:</item>
+        <item>全真牙</item>
+        <item>全假牙</item>
+        <item>全上托</item>
+        <item>全下托</item>
+        <item>部分假牙</item>
+    </string-array>
+    <string-array name="vision_info_list">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>白内障</item>
+        <item>青光眼</item>
+        <item>近视眼</item>
+        <item>老花眼</item>
+        <item>眼疾</item>
+        <item>失明</item>
+        <item>带镜</item>
+    </string-array>
+    <string-array name="hearing_info_list">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>轻微失听</item>
+        <item>中度失听</item>
+        <item>重度失听</item>
+        <item>完全失听</item>
+        <item>使用助听器</item>
+    </string-array>
+    <string-array name="breathing_info_list">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>喷门阻塞</item>
+        <item>咳嗽</item>
+        <item>哮喘</item>
+        <item>疼痛</item>
+        <item>痰盛</item>
+        <item>粘液</item>
+        <item>使用吸痰器</item>
+    </string-array>
+    <string-array name="sleep_info_list">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>失眠</item>
+        <item>早睡早起</item>
+        <item>晚睡晚起</item>
+        <item>按时入睡</item>
+        <item>入睡安定</item>
+        <item>不易入睡</item>
+        <item>睡眠不安</item>
+        <item>呼吸不畅</item>
+        <item>不良睡姿</item>
+        <item>依赖药物</item>
+        <item>睡眠过程间断</item>
+        <item>入睡出汗</item>
+        <item>入睡梦呓</item>
+    </string-array>
+    <string-array name="coordination_of_body_info_list">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>上肢不协调</item>
+        <item>下肢不协调</item>
+        <item>半身不遂</item>
+        <item>完全不协调</item>
+    </string-array>
+    <string-array name="body_movement_info_list">
+        <item>请选择:</item>
+        <item>独立完成</item>
+        <item>部分协助</item>
+        <item>持续协助</item>
+        <item>完全依靠他人</item>
+    </string-array>
+    <string-array name="unhealthy_behavior_info_list">
+        <item>请选择:</item>
+        <item>吸烟</item>
+        <item>饮酒过量</item>
+        <item>暴饮暴食</item>
+        <item>偏食</item>
+        <item>挑食</item>
+        <item>生活无规律</item>
+        <item>饮食不卫生</item>
+    </string-array>
+    <string-array name="record_ques_mind_1">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>幻觉</item>
+        <item>幻视</item>
+        <item>部分肢体无知觉</item>
+        <item>部分器官无感觉</item>
+    </string-array>
+    <string-array name="record_ques_mind_2">
+        <item>请选择:</item>
+        <item>合作</item>
+        <item>友好</item>
+        <item>积极</item>
+        <item>融洽</item>
+        <item>冷淡</item>
+        <item>怀疑</item>
+        <item>争吵</item>
+    </string-array>
+    <string-array name="record_ques_mind_3">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>不受控制</item>
+        <item>私自外出</item>
+        <item>自我伤害</item>
+        <item>攻击他人</item>
+        <item>不安分</item>
+    </string-array>
+    <string-array name="record_ques_mind_4">
+        <item>请选择:</item>
+        <item>独立</item>
+        <item>不独立</item>
+        <item>需鼓励</item>
+        <item>需指导</item>
+        <item>需暗示</item>
+        <item>依赖他人</item>
+    </string-array>
+    <string-array name="record_ques_mind_5">
+        <item>请选择:</item>
+        <item>投入</item>
+        <item>抑郁</item>
+        <item>自闭</item>
+        <item>控制力差</item>
+        <item>易受感染</item>
+        <item>焦虑紧张</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="record_ques_mind_6">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>积极思维</item>
+        <item>思路清晰</item>
+        <item>思维敏捷</item>
+        <item>迟钝</item>
+        <item>无思维</item>
+    </string-array>
+    <string-array name="record_ques_mind_7">
+        <item>请选择:</item>
+        <item>言语狂躁</item>
+        <item>行为狂躁</item>
+        <item>躁动不安</item>
+        <item>伤人</item>
+        <item>自溺</item>
+        <item>无暴力倾向</item>
+    </string-array>
+    <string-array name="record_ques_mind_8">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>理解事物</item>
+        <item>理解简单语句</item>
+        <item>无理解能力</item>
+    </string-array>
+    <string-array name="record_ques_mind_9">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>能描述事物</item>
+        <item>只能表达简单语句</item>
+        <item>只能表达词语</item>
+        <item>表述不清</item>
+        <item>用手表达</item>
+        <item>言语无异议</item>
+        <item>无表达</item>
+        <item>语无伦次</item>
+    </string-array>
+    <string-array name="record_ques_mind_10">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>积极参加活动</item>
+        <item>不参加活动</item>
+        <item>需协助</item>
+    </string-array>
+    <string-array name="record_ques_mind_11">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>随和</item>
+        <item>孤僻</item>
+        <item>怪异</item>
+        <item>暴躁</item>
+        <item>开朗</item>
+    </string-array>
+    <string-array name="record_ques_mind_12">
+        <item>请选择:</item>
+        <item>正常</item>
+        <item>愿意与人交往</item>
+        <item>主动向人倾诉</item>
+        <item>积极参加社会活动</item>
+        <item>团结协作</item>
+        <item>不愿交往</item>
+        <item>无交往能力</item>
+    </string-array>
+    <string-array name="record_ques_mind_13">
+        <item>请选择:</item>
+        <item>需定期进行</item>
+        <item>需随时进行</item>
+        <item>主动要求咨询</item>
+        <item>不需要进行</item>
+        <item>不配合</item>
+        <item>接受访谈</item>
+    </string-array>
+    <string-array name="record_ques_mind_14">
+        <item>请选择:</item>
+        <item>主动就医</item>
+        <item>协助就医</item>
+        <item>需提示</item>
+        <item>完全依靠他人</item>
+        <item>抗拒就医</item>
+        <item>需指导</item>
+    </string-array>
+    <string-array name="record_ques_life_1">
+        <item>请选择:</item>
+        <item>洗手</item>
+        <item>洗脸</item>
+        <item>洗脚</item>
+        <item>洗头</item>
+        <item>刷牙</item>
+        <item>漱口</item>
+        <item>剃须</item>
+        <item>理发</item>
+        <item>梳头</item>
+        <item>修面</item>
+    </string-array>
+    <string-array name="record_ques_life_2">
+        <item>请选择:</item>
+        <item>主动就餐</item>
+        <item>需要送餐</item>
+        <item>协助用餐</item>
+        <item>喂饭</item>
+        <item>鼻饲</item>
+    </string-array>
+    <string-array name="record_ques_life_3_1">
+        <item>请选择:</item>
+        <item>主动如厕	</item>
+        <item>提醒如厕</item>
+        <item>使用便盆</item>
+        <item>使用尿壶</item>
+        <item>尿袋</item>
+        <item>协助如厕排尿</item>
+        <item>协助如厕排便</item>
+        <item>床上使用便器</item>
+        <item>大小便失禁</item>
+        <item>尿片</item>
+        <item>瀦溜</item>
+        <item>药物排便</item>
+        <item>腹泻</item>
+    </string-array>
+    <string-array name="record_ques_life_3_2">
+        <item>请选择:</item>
+        <item>手取</item>
+        <item>腹泻药</item>
+        <item>栓塞剂</item>
+        <item>灌肠</item>
+        <item>人工造瘘</item>
+    </string-array>
+    <string-array name="record_ques_life_4">
+        <item>请选择:</item>
+        <item>独立完成</item>
+        <item>辅助完成</item>
+        <item>吸管助饮</item>
+        <item>不吞咽</item>
+    </string-array>
+    <string-array name="record_ques_life_5">
+        <item>请选择:</item>
+        <item>独立完成</item>
+        <item>协助完成</item>
+        <item>指导穿衣</item>
+        <item>语言提示</item>
+        <item>完全协助</item>
+    </string-array>
+    <string-array name="record_ques_life_6">
+        <item>请选择:</item>
+        <item>行走自如</item>
+        <item>走跑</item>
+        <item>健身器材</item>
+        <item>骑车外出</item>
+        <item>需要辅助器材</item>
+        <item>手杖</item>
+        <item>拐杖</item>
+        <item>助行器</item>
+        <item>轮椅</item>
+    </string-array>
+    <string-array name="record_ques_life_7">
+        <item>请选择:</item>
+        <item>衣物</item>
+        <item>床铺</item>
+        <item>被褥</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="record_ques_life_8">
+        <item>请选择:</item>
+        <item>能独立完成清扫</item>
+        <item>需协助清扫</item>
+        <item>不能进行此项活动</item>
+    </string-array>
+    <string-array name="record_ques_life_9">
+        <item>请选择:</item>
+        <item>能独立外出</item>
+        <item>需别人陪同</item>
+        <item>不能够外出</item>
+    </string-array>
+    <string-array name="record_ques_life_10">
+        <item>请选择:</item>
+        <item>能自行处理</item>
+        <item>能自己接听</item>
+        <item>不能处理</item>
+    </string-array>
+    <string-array name="record_ques_life_11">
+        <item>请选择:</item>
+        <item>能按时服药</item>
+        <item>能辨别药物</item>
+        <item>需提示服药</item>
+        <item>不能自行处理</item>
+        <item>拒绝服药</item>
+    </string-array>
+    <string-array name="record_ques_life_12">
+        <item>请选择:</item>
+        <item>个人保管</item>
+        <item>需院方协助保管</item>
+        <item>自行购物</item>
+        <item>代办购物</item>
+    </string-array>
+    <string-array name="patroal_times_night">
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>24:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+    </string-array>
+    <string-array name="patroal_times_day">
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+    </string-array>
+    <string-array name="sannitation">
+        <item>地面</item>
+        <item>墙面</item>
+        <item>天花板</item>
+        <item>窗台</item>
+        <item>玻璃</item>
+        <item>门</item>
+        <item>灯具</item>
+        <item>家具</item>
+        <item>卫生间</item>
+        <item>窗帘</item>
+        <item>电器</item>
+        <item>公共区域设施设备</item>
+    </string-array>
+    <string-array name="laundry_items">
+        <item>床上用品</item>
+        <item>外衣</item>
+        <item>外裤</item>
+        <item>秋衣</item>
+        <item>秋裤</item>
+        <item>内衣裤</item>
+        <item>袜子</item>
+        <item>鞋</item>
+        <item>手套</item>
+        <item>帽子</item>
+    </string-array>
+    <string-array name="turn_body_time_day">
+        <item>6:01-7:00</item>
+        <item>7:01-8:00</item>
+        <item>8:01-9:00</item>
+        <item>9:01-10:00</item>
+        <item>10:01-11:00</item>
+        <item>11:01-12:00</item>
+        <item>12:01-13:00</item>
+        <item>13:01-14:00</item>
+        <item>14:01-15:00</item>
+        <item>15：01-16:00</item>
+        <item>16:01-17:00</item>
+        <item>17:01-18:00</item>
+    </string-array>
+	<string-array name="turn_body_time_night">
+        <item>18:01-19:00</item>
+        <item>19:01-20:00</item>
+        <item>20:01-21:00</item>
+        <item>21:01-22:00</item>
+        <item>22:01-23:00</item>
+        <item>23:01-24:00</item>
+        <item>00:01-1:00</item>
+        <item>1:01-2:00</item>
+        <item>2:01-3:00</item>
+        <item>3:01-4:00</item>
+        <item>4:01-5:00</item>
+        <item>5:01-6:00</item>
+    </string-array>
+    <string-array name="turn_body_decubitus">
+        <item>左侧卧位</item>
+        <item>平卧位（仰卧位）</item>
+        <item>右侧卧位</item>
+        <item>半卧位（坐位）</item>
+        <item>俯卧位</item>
+    </string-array>
+    <string-array name="people_mind_tips">
+        <item>良好</item>
+        <item>正常</item>
+        <item>异常</item>
+    </string-array>
+
+    <string-array name="people_dose_tips">
+        <item>已服</item>
+        <item>异常</item>
+    </string-array>
+
+    <string-array name="people_injection">
+        <item>无</item>
+        <item>已完成</item>
+        <item>异常</item>
+    </string-array>
+
+    <string-array name="people_another">
+        <item>良好</item>
+        <item>正常</item>
+        <item>已完成</item>
+        <item>本区域公共设施设备完好</item>
+        <item>本区域公共消防器材完好</item>
+        <item>本区域老人体温无异常</item>
+        <item>本区域公共设施设备报修</item>
+        <item>异常</item>
+    </string-array>
+
+    <string-array name="drug_unit">
+        <item>剂</item>
+        <item>盒</item>
+        <item>瓶</item>
+        <item>袋</item>
+        <item>支</item>
+        <item>粒</item>
+        <item>贴</item>
+        <item>克</item>
+        <item>片</item>
+        <item>丸</item>
+        <item>毫升</item>
+        <item>喷</item>
+        <item>揿</item>
+    </string-array>
+
+    <string-array name="drug_frequency">
+        <item>每日一次</item>
+        <item>每日二次</item>
+        <item>每日三次</item>
+        <item>每日四次</item>
+        <item>隔单日一次</item>
+        <item>隔双日一次</item>
+    </string-array>
+    
+     <string-array name="device_list">
+        <item>NIBP</item>
+        <item>SpO</item>
+        <item>BG</item>
+        <item>PULM</item>
+        <item>BC</item>
+        <item>TEMP</item>
+    </string-array>
+
+    <string-array name="drug_usage">
+        <item>口服</item>
+        <item>注射</item>
+        <item>外用</item>
+        <item>湿敷</item>
+        <item>坐浴</item>
+        <item>浸泡</item>
+        <item>冲洗用</item>
+    </string-array>
+</resources>

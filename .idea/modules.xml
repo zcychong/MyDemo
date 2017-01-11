@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myMultiDexTest/myMultiDexTest.iml" filepath="$PROJECT_DIR$/myMultiDexTest/myMultiDexTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myndktest/myndktest.iml" filepath="$PROJECT_DIR$/myndktest/myndktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ylis/ylis.iml" filepath="$PROJECT_DIR$/ylis/ylis.iml" />
+    </modules>
+  </component>
+</project>

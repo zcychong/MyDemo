@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#BBBBBB</color>
+   	<color name="gray_bg">#EEEEEE</color>
+    <color name="light_black">#777A77</color>
+    <!-- 浅黑色 -->
+    <color name="login_bg_press">#BAE1C2</color>
+    <!-- 登录按钮按下背景颜色 -->
+    <color name="login_bg">#9ED6BD</color>
+    <!-- 登录按钮正常背景颜色 -->
+    <color name="user_center_bg">#f1f1f1</color>
+    <!-- 用户中心背景 -->
+
+    <color name="color_gray_888888">#888888</color>
+    <color name="red">#FF6600</color>
+    <!-- 红色，提示新消息字体颜色 -->
+    <color name="red2">#FF0000</color>
+    <!-- 红色 -->
+
+    <color name="main_color">#ea5514</color>
+    <!-- 主题色 -->
+    <color name="main_color_dark">#d94403</color>
+    <!-- 老人选中色 -->
+    <color name="people_choose_color">#ea6831</color>
+    <!-- 老人选中色 -->
+    <color name="people_default_color">#25BD61</color>
+    
+    <color name="logo_blue">#009BD2</color>
+    
+    <!-- 黄色 -->
+    <color name="main_yellow">#E8B913</color>
+    <color name="main_yellow_dark">#F7A802</color>
+    
+    <!-- 粉色 -->
+    <color name="main_pink">#FEEFE7</color>
+
+    <!-- 粉色 -->
+    <color name="tip_border_green">#5ABB69</color>
+    
+    <color name="gray_transparent">#88ececec</color>
+     <color name="line">#808080</color>
+    <!-- logo中的蓝色 -->
+
+    <color name="hight_blue">#009BD2</color>
+    <color name="hight_blue_dark">#008AC1</color>
+    <color name="disagree_red">#C44630</color>
+    <color name="disagree_red_dark">#B33520</color>
+    <color name="problem_green">#25BD61</color>
+    <color name="problem_green_dark">#14AC50</color>
+    <color name="edit_text">#a3a3a3</color>
+    <color name="logout_red">#df6048</color>
+    <color name="logout_red_dark">#ce5037</color>
+    <color name="border_yellow">#e7b914</color>
+    <color name="border_yellow_dark">#d6a804</color>
+    <color name="title_yellow">#ac8a19</color>
+    <!-- 班次任务颜色 -->
+    <color name="exec_time_a">#25bd63</color>
+    <color name="exec_time_b">#14bedf</color>
+    <color name="exec_time_c">#e54091</color>
+    <color name="exec_time_d">#8a34da</color>
+    <!-- 床位颜色 -->
+    <color name="bed_default_color">#FEF6F3</color>
+    <color name="bed_a_color">#FC824C</color>
+    <color name="bed_b_color">#25BD61</color>
+    <color name="bed_c_color">#F4CE61</color>
+    <color name="bed_d_color">#71D7DC</color>
+    <color name="bed_e_color">#AACC6B</color>
+    <color name="bed_f_color">#8ABFDF</color>
+    <color name="bed_leave_color">#4577E6</color>
+    <!-- 床位颜色 -->
+    <color name="patroal_exception_a">#E7BA12</color>
+    <color name="patroal_exception_b">#93CD38</color>
+    <!-- 灰色色分级 -->
+    <color name="gray_one">#353535</color>
+    <color name="gray_two">#636363</color>
+    <color name="gray_three">#989898</color>
+    <color name="gray_four">#bfbfbf</color>
+    <color name="gray_fave">#ececec</color>
+    <color name="gray_bg_2">#f1f1f1</color>
+    <color name="gray_bg_3">#fafafa</color>
+    <color name="gray_bg_4">#fcfcfc</color>
+
+    <color name="gray_line">#e5e5e5</color>
+    <color name="gray_green">#dcdde1</color>
+    <color name="question_green">#00c672</color>
+    <color name="main_black">#333333</color>
+    <color name="second_black">#555555</color>
+    <color name="three_black">#808080</color>
+    <color name="room_black">#888888</color>
+    <color name="border_black">#aeaeae</color>
+
+    <!-- 主体色分级 -->
+    <color name="green_one">#01975b</color>
+    <color name="green_two">#01ad68</color>
+    <color name="green_three">#01c675</color>
+    <color name="green_four">#47c693</color>
+    <color name="green_fave">#7ac8a9</color>
+    <color name="home_bg">#f0ecec</color>
+    <color name="press_bg">#e2e2e2</color>
+    <!-- 点击效果按下时的颜色 -->
+    <color name="btn_press_bg">#cccccc</color>
+    <!-- 按钮点击效果按下时的颜色 -->
+
+</resources>

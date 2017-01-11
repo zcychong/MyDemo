@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/gray_bg_2"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/item_icon_delete"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_add_spare_drug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="添加备用药"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/pressed_yellow_bg"/>
+
+        <TextView
+            android:id="@+id/tv_drug_info"
+            android:layout_toRightOf="@+id/iv_delete"
+            android:layout_toLeftOf="@+id/tv_add_spare_drug"
+            style="@style/CommonViewStyle"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_drug_spare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/border_gary_bg_line"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_delete_spare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/item_icon_delete"/>
+
+        <TextView
+            android:id="@+id/tv_spare_drug"
+            android:layout_marginLeft="10dp"
+            style="@style/CommonViewStyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>

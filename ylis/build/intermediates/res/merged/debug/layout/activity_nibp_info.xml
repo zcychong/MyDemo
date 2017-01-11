@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <include layout="@layout/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="血压正常范围参考值:"
+        android:textColor="@color/gray_two"
+        android:textSize="18sp"
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nibp_detail"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="正常心率范围: 60-100次/分钟"
+        android:textColor="@color/gray_two"
+        android:textSize="18sp"/>
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:text="注: 以上内容仅供参考,不作为医学诊断标准"
+        android:textColor="@color/gray_three"
+        android:textSize="18sp"/>
+     
+     <Button
+         android:id="@+id/btn_back" 
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button_bg"
+         android:layout_gravity="right"
+         android:padding="10dp"
+         android:layout_marginTop="20dp"
+         android:layout_marginRight="20dp"
+         android:text="返回"
+         android:textColor="@color/light_black"
+         android:textSize="18sp"/>
+
+</LinearLayout>

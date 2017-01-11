@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthmanage.ylis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许读取电话的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许应用找到关于当前或最近运行的任务和在哪些acitivities里运行 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 设置电源管理的权限,点亮屏幕权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 解锁权限 -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 往sdcard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 在sdcard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 设置手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name="com.healthmanage.ylis.application.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.healthmanage.ylis.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TastConnectFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TastConnectSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.EditTaskConnectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TaskDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.SettingInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.HoursRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ExpandDoseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ExpandTurnBodyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.LeaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TaskDetailModelTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.HistroyElderlyListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.LeaveSearchElderLyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.HistroyElderlyTaskActivity"
+            android:label="@string/title_activity_histroy_elderly_task"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.SannitationActivity"
+            android:label="@string/title_activity_sannitation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.PatroalActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.PatroalAddExceptionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.InputInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.LaundryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TurnBodyInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ChooseElderlyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.PatroalHistroyActivity"
+            android:label="@string/title_activity_patroal_histroy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.PatroalExceptionListActivity"
+            android:label="@string/title_activity_patroal_exception_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.TurnBodyHistroyActivity"
+            android:label="@string/title_activity_turn_body_histroy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.LaundryHistroyActivity"
+            android:label="@string/title_activity_laundry_histroy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ConnextTaskExceptionActivity"
+            android:label="@string/title_activity_connext_task_exception"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.FcilitiesExceptionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.DoseManagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.BaseFragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.SendDrugActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.SendDrugAddDrugActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.AddDrugActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.AddDrugInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.ElderlyDoseDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.healthmanage.ylis.activity.ChooseItemActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.UserMonitorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.NibpInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.DeviceManagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.DoseElderlyListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.healthmanage.ylis.activity.DoseDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.healthmanage.ylis.service.FindDoseService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

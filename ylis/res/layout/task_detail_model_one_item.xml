@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" 
+        android:background="@color/gray_bg_2">
+
+        <ImageView
+            android:id="@+id/iv_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/icon_frequency" />
+
+        <TextView
+            android:id="@+id/tv_frequency_name"
+            style="@style/CommonViewStyle"
+            android:layout_toRightOf="@id/iv_frequency"
+            android:padding="10dp"
+            android:text="护理班次:" />
+
+        <TextView
+            android:id="@+id/tv_frequency"
+            style="@style/ThreeTextStyle"
+            android:layout_toRightOf="@id/tv_frequency_name"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/pressed_border_yellow_btn"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="请假"
+            android:textColor="@color/border_yellow"
+            android:textSize="22sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.healthmanage.ylis.view.GridViewForScrollView
+        android:id="@+id/dv_task_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3" >
+    </com.healthmanage.ylis.view.GridViewForScrollView>
+
+</LinearLayout>
