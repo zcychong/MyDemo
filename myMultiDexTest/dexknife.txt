@@ -2,4 +2,4 @@
 #-keep com.demo.android.mymultidextest.Activity.**
 
 # 这条配置可以指定这个包下类在第二dex中.
-com.demo.android.mymultidextest.Utils.**
+com.demo.android.mymultidextest.NewPro.**

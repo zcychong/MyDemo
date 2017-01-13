@@ -1609,8 +1609,8 @@ android/support/v7/appcompat/R$styleable.class
 android/support/v7/appcompat/R.class
 com/demo/android/mymultidextest/Activity/MainActivity$1.class
 com/demo/android/mymultidextest/Activity/MainActivity.class
+com/demo/android/mymultidextest/Application/MainApplication.class
 com/demo/android/mymultidextest/BuildConfig.class
-com/demo/android/mymultidextest/NewPro/NewFunction.class
 com/demo/android/mymultidextest/R$anim.class
 com/demo/android/mymultidextest/R$attr.class
 com/demo/android/mymultidextest/R$bool.class
@@ -1625,3 +1625,4 @@ com/demo/android/mymultidextest/R$string.class
 com/demo/android/mymultidextest/R$style.class
 com/demo/android/mymultidextest/R$styleable.class
 com/demo/android/mymultidextest/R.class
+com/demo/android/mymultidextest/Utils/MeasureTuils.class

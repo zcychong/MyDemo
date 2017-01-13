@@ -16,7 +16,7 @@ public class NewFunction {
     }
 
     public void func(){
-        Toast.makeText(activity, MeasureTuils.measure(10,0), Toast.LENGTH_SHORT).show();
+        Toast.makeText(activity, MeasureTuils.measure(10,1), Toast.LENGTH_SHORT).show();
     }
 
 }
