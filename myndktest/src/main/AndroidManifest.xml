@@ -2,15 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.demo.android.myndktest">
 
-    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".transaition.TransitionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".transaition.scene.ChangeBoundsActivity" />
+        <activity android:name=".transaition.scene.ChangeTransformActivity" />
+        <activity android:name=".transaition.scene.ChangeClipBoundsActivity" />
+        <activity android:name=".transaition.TransitionXMLActivity" />
+        <activity android:name=".transaition.scene.ChangeImgTransformActivity" />
+        <activity android:name=".transaition.scene.ChangeFSEActivity" />
+        <activity android:name=".transaition.fragment.FragmentActivity" />
+        <activity android:name=".transaition.WithSharedElementActivity"></activity>
     </application>
 
 </manifest>

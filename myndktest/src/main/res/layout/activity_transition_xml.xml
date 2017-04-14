@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_transition_xml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.demo.android.myndktest.transaition.TransitionXMLActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iv_one"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/haizei_lufei"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/iv_two"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_toRightOf="@+id/iv_one"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/haizei_shanzhi"
+            />
+
+        <ImageView
+            android:id="@+id/iv_three"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/iv_one"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/haizei_wusuopu"/>
+
+        <ImageView
+            android:id="@+id/iv_four"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_toRightOf="@+id/iv_three"
+            android:layout_below="@+id/iv_two"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/haizei_qiaoba"/>
+    </RelativeLayout>
+
+</RelativeLayout>

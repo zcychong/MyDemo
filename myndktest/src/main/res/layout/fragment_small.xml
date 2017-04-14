@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.android.myndktest.transaition.fragment.SmallFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/iv_small"
+        android:transitionName="iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/haizei_lufei"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="点我有惊喜啊!"
+        android:onClick="change"/>
+
+</FrameLayout>
